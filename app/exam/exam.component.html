@@ -1,0 +1,10 @@
+
+
+<div *ngFor="let person of listOfPeople;let i = index">{{person}}</div>
+
+
+<div class="tutorial">
+  two curly braces {{ end up being "interpolated" by looking in the javascript to figure out what to render, and then rendering it again when it changes.
+  </div>
+
+  <button (click)="addPerson()">Give me a new person</button>

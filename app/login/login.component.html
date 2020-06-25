@@ -1,0 +1,13 @@
+
+
+ <div class="main">
+ 
+    <form class="form1">
+      <input class="un " type="text" align="center"  name="email_id" placeholder="Email" ngModel #email>
+      <input class="pass" type="password" align="center" name="password" placeholder="Password" #pass>
+       <button class="btn btn-lg btn-primary btn-block" type="button" (click)="login(email.value, pass.value)">Sign in</button>
+    </form>
+    <p>First name value: {{ email.value }}{{pass.value}}</p>
+            
+                
+    </div>

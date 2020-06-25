@@ -1,0 +1,7 @@
+{
+    "/*": {
+        "target": "https://efreelearn.cfapps.io/",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
